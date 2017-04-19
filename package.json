@@ -1,7 +1,7 @@
 {
-  "name": "node-js-getting-started",
+  "name": "music crawler",
   "version": "0.2.6",
-  "description": "A sample Node.js app using Express 4",
+  "description": "music crawler",
   "engines": {
     "node": "6.10.2"
   },
@@ -11,7 +11,9 @@
   },
   "dependencies": {
     "ejs": "2.5.6",
-    "express": "4.15.2"
+    "express": "4.15.2",
+    "cheerio": "0.22.0",
+    "request": "2.81.0"
   },
   "repository": {
     "type": "git",
